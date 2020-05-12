@@ -5,3 +5,5 @@ src/css/bootstrap.css
 js/
 
 #causes Atom IDE conflicts
+stylelint.config.js
+.prettierrc
