@@ -1,3 +1,55 @@
 body {
-  background: red;
-}
+  font-family: "Roboto Condensed", sans-serif;
+  color: white !important; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: white; }
+
+.bg-primary {
+  background-color: red !important; }
+
+.bg-white {
+  color: red !important; }
+
+.weather-country {
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 3; }
+
+.weather-icon {
+  width: 1rem;
+  height: 1rem; }
+
+.nav-title {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5em; }
+
+.li-login,
+.li-subscribe {
+  font-size: 0.8em; }
+
+.login-arrow {
+  width: 0.7em;
+  height: 0.7em; }
+
+@media (min-width: 400px) {
+  .d-sm-none {
+    display: none; } }
+
+@media screen and (min-width: 992px) {
+  .weather-country {
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 3; }
+  .weather-icon {
+    width: 1rem;
+    height: 1rem; }
+  .login-arrow {
+    width: 1em;
+    height: 1em; }
+  .nav-title {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 4.5em; } }
