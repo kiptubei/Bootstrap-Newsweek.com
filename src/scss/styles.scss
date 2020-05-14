@@ -1,5 +1,5 @@
-$bg-color: red;
-$nav-font-color: white;
+$bg-color: #f72210;
+$nav-font-color: #fff;
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -11,7 +11,13 @@ ul {
 }
 
 a {
-  color: white;
+  color: #000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .bg-primary {
@@ -25,7 +31,7 @@ a {
 .weather-country {
   font-size: 0.85em;
   font-weight: 700;
-  line-height: 3;
+  line-height: 2;
 }
 
 .weather-icon {
@@ -48,6 +54,15 @@ a {
   height: 0.7em;
 }
 
+.header-bottom::before {
+  display: none;
+}
+
+.header-bottom {
+  width: 50%;
+  align-self: end;
+}
+
 @media (min-width: 400px) {
   .d-sm-none {
     display: none;
@@ -58,7 +73,7 @@ a {
   .weather-country {
     font-size: 0.85em;
     font-weight: 700;
-    line-height: 3;
+    line-height: 2;
   }
 
   .weather-icon {
@@ -73,6 +88,22 @@ a {
 
   .nav-title {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 4.5em;
+    font-size: 3.5em;
+  }
+
+  .header-bottom::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 100px;
+    background-color: $bg-color !important;
+    border-left: 12px solid #fff;
+    border-top: 13px solid $bg-color !important;
+  }
+
+  .header-bottom {
+    width: 100%;
   }
 }

@@ -4,48 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@800&display=swap" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0">
-        <div class="col-lg-3 col-md-4 border border-white p-0 m-0 weather d-sm-none d-md-inline d-lg-inline">
-          <div>
-            <picture
-              ><source srcset="https://g.newsweek.com/img/weather/30.webp" type="image/webp" />
-              <img src="https://g.newsweek.com/img/weather/30.png" alt="Partly Cloudy" class="weather-icon" />&nbsp;</picture
-            >
+      <div class="d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary border border-info py-0">
+          <div class="col-lg-3 col-md-4 border border-white p-0 m-0 weather d-sm-none d-md-inline d-lg-inline">
+            <div>
+              <picture
+                ><source srcset="https://g.newsweek.com/img/weather/30.webp" type="image/webp" />
+                <img src="https://g.newsweek.com/img/weather/30.png" alt="Partly Cloudy" class="weather-icon" />&nbsp;</picture
+              >
 
-            <span class="weather-country"
-              >22°&nbsp;Nairobi, KE&nbsp;&nbsp;<picture style="display: inherit;"
-                ><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
-                <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" /></picture
-            ></span>
+              <span class="weather-country"
+                >22°&nbsp;Nairobi, KE&nbsp;&nbsp;<picture style="display: inherit;"
+                  ><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp" />
+                  <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow" /></picture
+              ></span>
+            </div>
+            <div class="d-md-none d-sm-none d-lg-inline">
+              <date>Wed, May 13, 2020</date>
+            </div>
           </div>
-          <div class="d-md-none d-sm-none d-lg-inline">
-            <date>Wed, May 13, 2020</date>
+          <div class="col-lg-5 col-md-4 col-5 border border-white d-flex justify-content-center"><span class="nav-title font-weight-bolder m-0 p-0">Newsweek</span></div>
+          <div class="col-lg-4 col-md-4 col-7 border border-white d-flex justify-content-end align-self-end mb-2 pr-0">
+            <!--<ul class="navbar-nav justify-content-end row">-->
+            <ul class="list-group list-group-horizontal justify-content-end pr-0">
+              <li class="border border-info align-self-center"><a class="btn text-white font-weight-bold li-login" href="#" role="button">LOGIN</a></li>
+              <li class="border border-info align-self-center">
+                <a class="btn bg-white btn-inline-block px-1 font-weight-bold rounded-0 li-subscribe" href="#" role="button">SUBSCRIBE <img src="https://g.newsweek.com/www/images/icon-arrow-right-red.svg" class="login-arrow" /></a>
+              </li>
+              <li class="border border-info">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="col-lg-5 col-md-4 col-5 border border-white d-flex justify-content-center"><span class="nav-title font-weight-bolder m-0 p-0">Newsweek</span></div>
-        <div class="col-lg-4 col-md-4 col-7 border border-white d-flex justify-content-end align-self-end pr-0">
-          <!--<ul class="navbar-nav justify-content-end row">-->
-          <ul class="list-group list-group-horizontal justify-content-end">
-            <li class="border border-info align-self-center"><a class="btn text-white font-weight-bold li-login" href="#" role="button">LOGIN</a></li>
-            <li class="border border-info align-self-center">
-              <a class="btn bg-white btn-inline-block px-1 font-weight-bold rounded-0 li-subscribe" href="#" role="button">SUBSCRIBE <img src="https://g.newsweek.com/www/images/icon-arrow-right-red.svg" class="login-arrow" /></a>
-            </li>
-            <li class="border border-info">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        </nav>
+        <nav class="navbar navbar-expand-lg header-bottom border border-info my-0 py-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav font-weight-bold flex-grow-1 d-flex justify-content-between">
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">U.S</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">World</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Business</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Tech & Science</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Culture</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Health</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">The Debate</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Vantage</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Weather</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-search"></i><br />
+                <input class="form-control" type="text" placeholder="Search" />
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.min.js"></script>
