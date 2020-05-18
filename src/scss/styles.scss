@@ -1,6 +1,10 @@
 $bg-color: #f72210;
 $nav-font-color: #fff;
 
+html {
+  min-width: 576px;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: $nav-font-color !important;
@@ -12,12 +16,6 @@ ul {
 
 a {
   color: #000;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0;
 }
 
 .bg-primary {
@@ -61,6 +59,13 @@ a {
 .header-bottom {
   width: 50%;
   align-self: end;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.form-control {
+  font-family: FontAwesome, sans-serif;
+  width: 10em;
 }
 
 @media (min-width: 400px) {
