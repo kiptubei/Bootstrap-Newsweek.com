@@ -50,8 +50,14 @@ a {
   font-family: FontAwesome, sans-serif;
   width: 10em; }
 
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
   .d-sm-none {
+    display: none; }
+  .Featured {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  .Featured-sm {
     display: none; } }
 
 @media screen and (min-width: 992px) {
