@@ -65,6 +65,35 @@ a {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.deco {
+  position: relative;
+}
+
+.deco::after,
+.deco::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+}
+
+.vs-1 {
+  border-top: 2px solid red;
+}
+
+.vs-2 {
+  border-bottom: 2px solid blue;
+}
+
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .form-control {
