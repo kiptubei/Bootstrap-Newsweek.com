@@ -49,6 +49,9 @@ a {
 .news-cat a {
   background-color: rgba(255, 255, 255, 0.5); }
 
+.news-cat2 a {
+  background-color: gray; }
+
 .deco {
   position: relative; }
 
