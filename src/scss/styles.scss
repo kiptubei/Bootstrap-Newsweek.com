@@ -62,11 +62,16 @@ a {
 }
 
 .news-cat a {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: red;
 }
 
-.news-cat2 a {
-  background-color: rgb(128, 128, 128);
+.news-cat2 {
+  width: 200px;
+}
+
+.features {
+  background-color: rgba(218, 223, 225, 0.5);
 }
 
 .deco {
