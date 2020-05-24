@@ -8,6 +8,11 @@ html {
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: $nav-font-color !important;
+  margin-top: 36px;
+}
+
+.white-navbar {
+  margin-top: 50px;
 }
 
 ul {
@@ -16,6 +21,21 @@ ul {
 
 a {
   color: #000;
+}
+
+.newsweek-nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+
+.text-danger {
+  color: $bg-color !important;
+}
+
+.btn-danger {
+  background-color: $bg-color !important;
 }
 
 .bg-primary {
@@ -40,6 +60,11 @@ a {
 .nav-title {
   font-family: "Roboto Slab", sans-serif;
   font-size: 1.5em;
+}
+
+.footer-title-text {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 2.5em;
 }
 
 .li-login,
@@ -103,6 +128,37 @@ a {
   border-bottom: 2px solid blue;
 }
 
+.subscribe-half-one {
+  background-color: rgba(218, 223, 225, 1);
+}
+
+.subscription-img-div {
+  position: relative;
+  top: 0;
+  left: 120px;
+  height: 300px;
+}
+
+.subscription-img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.subscription-img-2 {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.border-sym {
+  display: none;
+}
+
+.newsletter-image {
+  display: none;
+}
+
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .form-control {
@@ -123,6 +179,21 @@ a {
 @media screen and (min-width: 768px) {
   .Featured-sm {
     display: none;
+  }
+
+  .subscription-img-div {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+  }
+
+  .border-sym {
+    display: inline-block;
+  }
+
+  .newsletter-image {
+    display: inline-block;
   }
 }
 
@@ -162,5 +233,17 @@ a {
 
   .header-bottom {
     width: 100%;
+  }
+
+  .subscription-img-div {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+  }
+
+  .border-sym,
+  .newsletter-image {
+    display: inline-block;
   }
 }
