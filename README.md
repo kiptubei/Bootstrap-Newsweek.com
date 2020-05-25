@@ -4,7 +4,7 @@ This project is a clone [Newseek Magazine](https://www.newsweek.com/) built usin
 [Bootstrap CSS Framework](https://getbootstrap.com/).
 
 > ​
-> ![screenshot](./assets/images/Screenshot.png)
+> ![screenshot](/assets/images/Screenshot.png)
 > ​
 
 ## Built With
