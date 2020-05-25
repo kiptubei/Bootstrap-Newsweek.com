@@ -60,7 +60,6 @@ Give a ⭐️ if you like this project!
 - Fontawesome
 - Our Stand up teams
 - Microverse TSE
-- Bootstrap team
 
   ​
 
