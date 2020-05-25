@@ -23,11 +23,20 @@ a {
   color: #000;
 }
 
+a:hover {
+  color: #000;
+  text-decoration: underline red;
+}
+
 .newsweek-nav {
   position: fixed;
   z-index: 100;
   top: 0;
   width: 100%;
+}
+
+.white-navbar a:hover {
+  color: $bg-color;
 }
 
 .text-danger {
@@ -91,12 +100,40 @@ a {
   color: red;
 }
 
-.news-cat2 {
+.card-title a {
+  color: black;
+}
+
+.card-title a:hover,
+.card a:hover,
+.news-cat a:hover {
+  text-decoration: underline red;
+}
+
+.side-news a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.heroes-title a {
+  background-color: rgb(192, 192, 192);
+  font-weight: bold;
+}
+
+.heroes-title a:hover {
+  text-decoration: none;
+}
+
+.feature {
   width: 200px;
 }
 
-.features {
+.features a {
   background-color: rgba(218, 223, 225, 0.5);
+}
+
+.features a:hover {
+  background-color: rgba(218, 223, 225, 1);
 }
 
 .deco {
