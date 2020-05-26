@@ -3,6 +3,7 @@ package-lock.json
 package.json
 src/css/bootstrap.css
 js/
+scss/
 gulpfile.js
 
 #causes Atom IDE conflicts
