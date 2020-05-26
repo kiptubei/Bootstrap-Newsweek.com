@@ -21,7 +21,7 @@ This project is a clone [Newseek Magazine](https://www.newsweek.com/) built usin
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/kiptubei/Bootstrap-Newsweek.com/5fa9dc12fedb37b2bcaae94387a39373c5354dce/src/index.html)
+[Live Demo Link](https://rawcdn.githack.com/kiptubei/Bootstrap-Newsweek.com/1e63aa9608118d74003acdb1799b8f9c88d9242e/src/index.html)
 ​
 ​
 
