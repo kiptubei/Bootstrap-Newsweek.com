@@ -6,5 +6,4 @@ js/
 gulpfile.js
 
 #causes Atom IDE conflicts
-stylelint.config.js
 .prettierrc
