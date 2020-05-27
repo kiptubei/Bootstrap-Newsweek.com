@@ -13,6 +13,12 @@ module.exports = {
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
+    "at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: ["each", "extend", "for", "function", "if", "include", "mixin", "while"],
+      },
+    ],
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
@@ -22,7 +28,13 @@ module.exports = {
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "comment-empty-line-before": ["always"],
+    "comment-empty-line-before": [
+      "always",
+      {
+        except: ["first-nested"],
+        ignore: ["stylelint-commands"],
+      },
+    ],
     "comment-whitespace-inside": "always",
     "custom-property-empty-line-before": [
       "always",
