@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Newsweek</title>
+  </head>
+  <body class="">
+    <div class="container-fluid">
+      <div class="d-flex flex-column m-0 p-0">
+        <nav class="newsweek-nav navbar navbar-expand-lg navbar-dark bg-primary py-0">
+          <div class="col-lg-3 col-md-4 p-0 m-0 weather d-sm-none d-md-inline d-lg-inline">
+            <div>
+              <picture
+                ><source srcset="https://g.newsweek.com/img/weather/30.webp" type="image/webp" />
+                <img
+                  src="https://g.newsweek.com/img/weather/30.png"
+                  alt="Partly Cloudy"
+                  class="weather-icon" /></picture
+              >&nbsp;
+
+              <span class="weather-country"
+                >22°&nbsp;Nairobi, KE&nbsp;&nbsp;<picture style="display: inherit;"
+                  ><source
+                    srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp"
+                    type="image/webp" />
+                  <img
+                    src="https://g.newsweek.com/img/weather/ic-white-arrow.png"
+                    class="weather-arrow"
+                    alt="weather-arrow" /></picture
+              ></span>
+            </div>
+            <div class="d-md-none d-sm-none d-lg-inline">
+              <span>Wed, May 13, 2020</span>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4 col-5 d-flex justify-content-center">
+            <span class="nav-title font-weight-bolder m-0 p-0">Newsweek</span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-7 d-flex justify-content-end align-self-end mb-2 pr-0">
+            <ul class="list-group list-group-horizontal justify-content-end pr-0">
+              <li class="align-self-center">
+                <a class="btn text-white font-weight-bold li-login" href="#" role="button">LOGIN</a>
+              </li>
+              <li class="align-self-center">
+                <a
+                  class="btn bg-white btn-inline-block px-1 font-weight-bold rounded-0 li-subscribe"
+                  href="#"
+                  role="button"
+                  >SUBSCRIBE
+                  <img
+                    src="https://g.newsweek.com/www/images/icon-arrow-right-red.svg"
+                    class="login-arrow"
+                    alt="login-arrow"
+                  />
+                </a>
+              </li>
+              <li class="">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav
+          class="white-navbar navbar navbar-expand-lg header-bottom mt-5 mb-3 border-bottom py-0"
+        >
+          <div class="collapse navbar-collapse my-2" id="navbarSupportedContent">
+            <ul class="navbar-nav font-weight-bold flex-grow-1 d-flex justify-content-between">
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">U.S</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">World</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Business</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Tech & Science</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Culture</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Health</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">The Debate</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Vantage</a>
+              </li>
+              <li class="nav-item border-right px-3 mx-n4">
+                <a class="nav-link" href="#">Weather</a>
+              </li>
+              <li class="nav-item">
+                <input
+                  class="form-control pl-0 border border-0"
+                  type="text"
+                  placeholder="Search &#xf002;"
+                />
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <main class="m-0 p-0">
+        <div class="news-section text-body px-3 row">
+          <div class="col-lg-8 col-md-12 row">
+            <div class="col-md-5 column main-news">
+              <section class="Featured order-lg-1 order-md-1 scroll">
+                <h6><span class="section-title text-black-50">FEATURED STORY</span></h6>
+                <article class="card border-0">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/boris-johnson.webp"
+                      alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        What the Polls Say About Donald Trump vs Joe Biden in Key 2020 Swing States
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/newsom.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Michigan Announces Its Lowest Single-Day COVID-19 Death Toll in Two Months
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Soon after Governor Gretchen Whitmer announced plans to ease certain
+                      restrictions specified by Michigan's stay-at-home order, the state confirmed
+                      its lowest single-day increase in cases and fatalities since March.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/huawei.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Florida Sen. Rick Scott Says Americans Have Right to Worship No Matter What
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      He followed President Trump's lead Sunday, declaring all Americans have the
+                      right to "worship at a church service."
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/huawei.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  stylelint.config.js
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Florida Sen. Rick Scott Says Americans Have Right to Worship No Matter What
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      He followed President Trump's lead Sunday, declaring all Americans have the
+                      right to "worship at a church service."
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/newsom.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Florida Sen. Rick Scott Says Americans Have Right to Worship No Matter What
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      He followed President Trump's lead Sunday, declaring all Americans have the
+                      right to "worship at a church service."
+                    </p>
+                  </div>
+                </article>
+              </section>
+            </div>
+            <div class="col-md-7 d-flex flex-column">
+              <section class="TopStory order-lg-2 order-md-2 order-sm-1">
+                <h6><span class="section-title text-black-50">TOP STORY</span></h6>
+                <article class="card border-0">
+                  <a href="#"
+                    ><img
+                      class="card-img-top"
+                      src="assets/images/trump-top.webp"
+                      alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Charlamagne tha God Says Biden Will Bring 'Voter Depression'
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      'The Breakfast Club' radio host urged Biden to pick a progressive black female
+                      running mate to alleviate voter depression in November.
+                    </p>
+                  </div>
+                </article>
+              </section>
+              <section class="Featured-sm order-sm-2">
+                <h6><span class="section-title text-black-50">FEATURED STORY</span></h6>
+                <article class="card border-0">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/boris-johnson.webp"
+                      alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        What the Polls Say About Donald Trump vs Joe Biden in Key 2020 Swing States
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/newsom.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Michigan Announces Its Lowest Single-Day COVID-19 Death Toll in Two Months
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Soon after Governor Gretchen Whitmer announced plans to ease certain
+                      restrictions specified by Michigan's stay-at-home order, the state confirmed
+                      its lowest single-day increase in cases and fatalities since March.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/huawei.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Florida Sen. Rick Scott Says Americans Have Right to Worship No Matter What
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      He followed President Trump's lead Sunday, declaring all Americans have the
+                      right to "worship at a church service."
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/boris-johnson.webp"
+                      alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        What the Polls Say About Donald Trump vs Joe Biden in Key 2020 Swing States
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/newsom.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Michigan Announces Its Lowest Single-Day COVID-19 Death Toll in Two Months
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      Soon after Governor Gretchen Whitmer announced plans to ease certain
+                      restrictions specified by Michigan's stay-at-home order, the state confirmed
+                      its lowest single-day increase in cases and fatalities since March.
+                    </p>
+                  </div>
+                </article>
+                <article class="card border-0">
+                  <a href=""
+                    ><img class="card-img-top" src="assets/images/huawei.webp" alt="Card image cap"
+                  /></a>
+                  <div class="news-cat mt-n4">
+                    <a href="#" class="border border-white p-2 px-3 font-weight-bold">U.S</a>
+                  </div>
+                  <div class="card-body">
+                    <a href=""
+                      ><h4 class="card-title font-weight-bold">
+                        Florida Sen. Rick Scott Says Americans Have Right to Worship No Matter What
+                      </h4></a
+                    >
+                    <p class="card-text">
+                      He followed President Trump's lead Sunday, declaring all Americans have the
+                      right to "worship at a church service."
+                    </p>
+                  </div>
+                </article>
+              </section>
+              <section class="MoreStories order-md-7 order-lg-7 order-sm-5">
+                <h6><span class="section-title text-black-50">MORE STORIES</span></h6>
+                <div>
+                  <article class="row my-1 border-top p-2">
+                    <div class="col-3">
+                      <a href="#"
+                        ><img
+                          class="rounded-0 h-100 w-100"
+                          src="assets/images/more1.webp"
+                          alt="Card image cap"
+                      /></a>
+                    </div>
+                    <div class="card col-9 pl-0 border-0">
+                      <a href="#">
+                        <h5 class="card-title p-0 font-weight-bold">
+                          Card title about the content below
+                        </h5>
+                      </a>
+                      <div class="card-body p-0">
+                        <span class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="row my-1 border-top p-2">
+                    <div class="col-3">
+                      <a href="#"
+                        ><img
+                          class="rounded-0 h-100 w-100"
+                          src="assets/images/more2.webp"
+                          alt="Card image cap"
+                      /></a>
+                    </div>
+                    <div class="card col-9 pl-0 border-0">
+                      <a href=""
+                        ><h5 class="card-title p-0 font-weight-bold">
+                          Card title about the content below
+                        </h5></a
+                      >
+                      <div class="card-body p-0">
+                        <span class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="row my-1 border-top p-2">
+                    <div class="col-3">
+                      <a href="#"
+                        ><img
+                          class="rounded-0 h-100 w-100"
+                          src="assets/images/fea-china-banner.png"
+                          alt="Card image cap"
+                      /></a>
+                    </div>
+                    <div class="card col-9 pl-0 border-0">
+                      <a href="">
+                        <h5 class="card-title p-0 font-weight-bold">
+                          Card title about the content below
+                        </h5></a
+                      >
+                      <div class="card-body p-0">
+                        <span class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="row my-1 border-top p-2">
+                    <div class="col-3">
+                      <a href="#"
+                        ><img
+                          class="rounded-0 h-100 w-100"
+                          src="assets/images/more3.webp"
+                          alt="Card image cap"
+                      /></a>
+                    </div>
+                    <div class="card col-9 pl-0 border-0">
+                      <a href="">
+                        <h5 class="card-title p-0 font-weight-bold">
+                          Card title about the content below
+                        </h5></a
+                      >
+                      <div class="card-body p-0">
+                        <span class="card-text font-weight-lighter text-black-70">
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </section>
+              <section class="Heroes order-md-5 order-lg-5 order-sm-6">
+                <h6><span class="section-title text-black-50">HEROES OF THE PANDEMIC</span></h6>
+                <div class="row text-black-50 mx-0 d-flex justify-content-between">
+                  <article class="card col-md col-sm-12 pl-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/hero1.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">PANDEMIC HEROES</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                  <article class="card col-md col-sm-12 pl-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/hero2.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">PANDEMIC HEROES</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                  <article class="card col-md col-sm-12 px-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/hero3.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">PANDEMIC HEROES</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                </div>
+              </section>
+              <section class="C&T order-md-6 order-lg-6 order-sm-7">
+                <h6><span class="section-title text-black-50">CULTURE & TRAVEL</span></h6>
+                <div class="row text-black-50 mx-0 d-flex justify-content-between">
+                  <article class="card col-md col-sm-12 pl-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/beach.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">BEACHES</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                  <article class="card col-md col-sm-12 pl-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/gorilla.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">TRAVEL</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                  <article class="card col-md col-sm-12 px-0 border-0">
+                    <a href="#" class="p-0 m-0"
+                      ><img
+                        class="card-img-top rounded-0"
+                        src="assets/images/books.webp"
+                        alt="Card image cap"
+                    /></a>
+                    <div class="heroes-title mt-n4">
+                      <h6><a href="#" class="border border-white py-1">BOOKS</a></h6>
+                    </div>
+                    <div class="card-body px-0 mx-0">
+                      <span class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </span>
+                    </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <section class="Debate order-lg-3 order-sm-3">
+              <h6><span class="section-title text-black-50">THE DEBATE</span></h6>
+              <div>
+                <article class="row vs-1 my-1 p-1 h-75">
+                  <div class="col-3 order-1">
+                    <a href="#"
+                      ><img
+                        class="rounded-circle h-100 w-100"
+                        src="assets/images/debate1.webp"
+                        alt="Card image cap"
+                    /></a>
+                  </div>
+                  <div class="card col-9 pl-0 border-0 order-2">
+                    <a href="#"
+                      ><h5 class="card-title">
+                        <b> Sovereignty,Appeasement, Is the Key to Lasting Peace</b>
+                      </h5></a
+                    >
+                    <a href="#"
+                      ><span class="card-text"> By <b>Caroline Glick</b> </span></a
+                    >
+                  </div>
+                </article>
+                <div class="deco">
+                  <div class="c-vs text-center">
+                    <span class="bg-dark rounded-circle text-white p-1">VS</span>
+                  </div>
+                </div>
+                <article class="row vs-2 my-1 p-2 h-75">
+                  <div class="col-3 order-2">
+                    <a href="#"
+                      ><img
+                        class="rounded-circle h-100 w-100"
+                        src="assets/images/debate2.webp"
+                        alt="Card image cap"
+                    /></a>
+                  </div>
+
+                  <div class="card col-9 pl-0 border-0 order-1">
+                    <a href=""
+                      ><h5 class="card-title p-0">
+                        <b> Sovereignty,Appeasement, Is the Key to Lasting Peace</b>
+                      </h5></a
+                    >
+                    <div class="card-body p-0">
+                      <a href="">
+                        <span class="card-text"> By <b>Caroline Glick</b> </span></a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+            <section class="Opinion order-lg-4 order-sm-4">
+              <h6><span class="section-title text-black-50">OPINION</span></h6>
+
+              <article class="row border-bottom my-1 p-2">
+                <div class="col-3 order-1">
+                  <a href="#"
+                    ><img
+                      class="rounded-circle h-75 w-100"
+                      src="assets/images/opinion1.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+
+                <div class="card col-9 pl-0 border-0 order-2 font-weight-bold">
+                  <h5 class="card-title p-0 font-weight-bold">
+                    <a href=""> Sovereignty,Appeasement, Is the Key to Lasting Peace</a>
+                  </h5>
+                  <div class="card-body p-0">
+                    <a href="#" class="text-black-50"> By Caroline Glick</a>
+                  </div>
+                </div>
+              </article>
+              <article class="row border-bottom my-1 p-2">
+                <div class="col-3 order-1">
+                  <a href="#"
+                    ><img
+                      class="rounded-circle h-75 w-100"
+                      src="assets/images/opinion2.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+
+                <div class="card col-9 pl-0 border-0 order-2 font-weight-bold">
+                  <h5 class="card-title p-0 font-weight-bold">
+                    <a href="">Sovereignty,Appeasement, Is the Key to Lasting Peace</a>
+                  </h5>
+                  <div class="card-body p-0">
+                    <a href="#" class="text-black-50"> By Caroline Glick</a>
+                  </div>
+                </div>
+              </article>
+              <article class="row border-bottom my-1 p-2">
+                <div class="col-3 order-1">
+                  <a href="#"
+                    ><img
+                      class="rounded-circle h-75 w-100"
+                      src="assets/images/opinion3.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+
+                <div class="card col-9 pl-0 border-0 order-2 font-weight-bold">
+                  <h5 class="card-title p-0 font-weight-bold">
+                    <a href="#">Sovereignty,Appeasement, Is the Key to Lasting Peace</a>
+                  </h5>
+                  <div class="card-body p-0">
+                    <span class="card-text">
+                      <a href="#" class="text-black-50"> By Caroline Glick</a>
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+        <section class="magazine">
+          <div
+            class="text-dark d-flex justify-content-center align-items-center my-2 mx-1 border-bottom"
+          >
+            <h5 class="bg-primary text-white font-weight-bold px-2 mr-2 mb-1">N</h5>
+            <h5 class="font-weight-bold">IN THE MAGAZINE</h5>
+          </div>
+          <div class="row mx-1 justify-content-between">
+            <article
+              class="monthly-feature card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mx-0 mb-3 border-0"
+            >
+              <a href="" class="card-img-top">
+                <img class="w-100" src="assets/images/cover2.jpg" alt="Card image cap" />
+              </a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">JUNE 05 ISSUE</a>
+              </div>
+              <div class="features card-body d-flex justify-content-center p-0">
+                <a
+                  href="#"
+                  class="card-text border border-white w-100 d-flex justify-content-center align-items-center p-0 m-0"
+                  ><h5 class="font-weight-bold">
+                    SEE ALL FEATURES
+                    <img
+                      src="https://g.newsweek.com/www/images/icon-arrow-right-black.svg"
+                      class="login-arrow"
+                      alt="go-arrow"
+                    />
+                  </h5>
+                </a>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mx-0 mt-3 mb-3 border-0">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/periscope2.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="card-title d-flex">
+                  <div>
+                    <a href="">
+                      <h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1">COVER</span>
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="">
+                      <span class="bg-white text-warning font-weight-bold p-1 m-1">NEWS</span></a
+                    >
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="card-text font-weight-bold m-1">
+                    America Is in a New Cold War and This Time the Communists Might Win
+                  </p></a
+                >
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mx-0 mt-3 mb-3 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/periscope3.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#">
+                      <h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1"
+                          >PERISCOPE</span
+                        >
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1"
+                        >CULTURE</span
+                      ></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="#"
+                    >America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mx-0 mt-3 mb-3 border-0">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/periscope4.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#"
+                      ><h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1"
+                          >PERISCOPE</span
+                        >
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1">TECH</span></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="#"
+                    >America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/periscope5.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#">
+                      <h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1">DOWNTIME</span>
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1"
+                        >CULTURE</span
+                      ></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="#"
+                    >America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mb-3 mx-0 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/periscope6.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#"
+                      ><h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1">DOWNTIME</span>
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1"
+                        >BUSINESS</span
+                      ></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="#"
+                    >America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mb-3 mx-0 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/periscope2.webp" alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#"
+                      ><h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1"
+                          >PERISCOPE</span
+                        >
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1">NEWS</span></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="#"
+                    >America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-3 col-lg-3 p-0 px-1 mb-3 mx-0 border-0">
+              <a href="#"
+                ><img
+                  class="card-img-top"
+                  src="assets/images/fea-china-banner2.png"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark">
+                <div class="d-flex flex-wrap">
+                  <div class="my-1">
+                    <a href="#">
+                      <h6>
+                        <span class="bg-primary text-white font-weight-bold p-1 m-1">COVER</span>
+                      </h6></a
+                    >
+                  </div>
+                  <div>
+                    <a href=""
+                      ><span class="bg-white text-warning font-weight-bold p-1 m-1">NEWS</span></a
+                    >
+                  </div>
+                </div>
+                <p class="card-text font-weight-bold m-1">
+                  <a href="">
+                    America Is in a New Cold War and This Time the Communists Might Win</a
+                  >
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="editors">
+          <div
+            class="text-dark d-flex justify-content-center align-items-center my-2 mx-1 border-bottom"
+          >
+            <p class="bg-primary text-white font-weight-bold px-2 mr-2 mb-1 border-0">
+              N
+            </p>
+            <h5 class="font-weight-bold">EDITOR'S PICKS</h5>
+          </div>
+          <div class="row mx-1 justify-content-between">
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/navajo.png" alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">NEWS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#"> Native Americans Are More Vulnerable to Coronavirus</a>
+                </h5>
+                <p class="card-text">
+                  Navajo Nation, the largest Native American territory in the U.S., has the highest
+                  per capita infection rate in the country, surpassing that of New York, the
+                  worst-hit state.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/primates.webp" alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">ESSAYS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+                <p class="card-text">
+                  Back in 1979, I was looking for gibbons in Khao Yai National Park in Thailand.
+                  There in front of us, about 30 feet away, was a large tiger lying in the middle of
+                  the trail.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="assets/images/unemployment.webp"
+                  alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">U.S</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+                <p class="card-text">
+                  Back in 1979, I was looking for gibbons in Khao Yai National Park in Thailand.
+                  There in front of us, about 30 feet away, was a large tiger lying in the middle of
+                  the trail.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="assets/images/fea-china-banner2.png"
+                  alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">NEWS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#"> Native Americans Are More Vulnerable to Coronavirus</a>
+                </h5>
+                <p class="card-text">
+                  Navajo Nation, the largest Native American territory in the U.S., has the highest
+                  per capita infection rate in the country, surpassing that of New York, the
+                  worst-hit state.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/navajo.png" alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">NEWS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#"> Native Americans Are More Vulnerable to Coronavirus</a>
+                </h5>
+                <p class="card-text">
+                  Navajo Nation, the largest Native American territory in the U.S., has the highest
+                  per capita infection rate in the country, surpassing that of New York, the
+                  worst-hit state.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/primates.webp" alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">ESSAYS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+                <p class="card-text">
+                  Back in 1979, I was looking for gibbons in Khao Yai National Park in Thailand.
+                  There in front of us, about 30 feet away, was a large tiger lying in the middle of
+                  the trail.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="assets/images/unemployment.webp"
+                  alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">U.S</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+                <p class="card-text">
+                  Back in 1979, I was looking for gibbons in Khao Yai National Park in Thailand.
+                  There in front of us, about 30 feet away, was a large tiger lying in the middle of
+                  the trail.
+                </p>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-6 col-lg-3 p-0 px-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="assets/images/fea-china-banner2.png"
+                  alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">NEWS</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="#"> Native Americans Are More Vulnerable to Coronavirus</a>
+                </h5>
+                <p class="card-text">
+                  Navajo Nation, the largest Native American territory in the U.S., has the highest
+                  per capita infection rate in the country, surpassing that of New York, the
+                  worst-hit state.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="categories mx-2 border-top pt-2">
+          <div class="categories-news">
+            <h4 class="text-danger font-weight-bolder">U.S</h4>
+          </div>
+          <div class="row justify-content-around">
+            <article class="card col-sm-12 col-md-4 col-lg-4 px-md-1 p-0 mx-0 mb-3 border-0">
+              <a href="#"
+                ><img class="card-img-top" src="assets/images/trump.webp" alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <a href="#">
+                  <h5 class="card-title font-weight-bold">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild
+                  </h5>
+                  '</a
+                >
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="#"
+                ><img
+                  class="card-img-top"
+                  src="assets/images/trump-campaign.webp"
+                  alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <a href=""
+                  ><h5 class="card-title font-weight-bold">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'
+                  </h5></a
+                >
+              </div>
+            </article>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/william-barr.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/tommy-tuberville.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/kwame-kilpatrick.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="categories mx-2 border-top pt-2">
+          <div class="categories-news">
+            <h4 class="text-danger font-weight-bolder">WORLD</h4>
+          </div>
+          <div class="row justify-content-around">
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="">
+                <img
+                  class="card-img-top"
+                  src="assets/images/hong-kong-world.webp"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="">
+                <img
+                  class="card-img-top"
+                  src="assets/images/cloudminds-world.webp"
+                  alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/william-barr.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/tommy-tuberville.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="#">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/kwame-kilpatrick.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="categories mx-2 border-top pt-2">
+          <div class="categories-news">
+            <h4 class="text-danger font-weight-bolder">BUSINESS</h4>
+          </div>
+          <div class="row justify-content-around">
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="">
+                <img
+                  class="card-img-top"
+                  src="assets/images/american-ledger-business.webp"
+                  alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="assets/images/aubert-amandine-business.webp"
+                  alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/william-barr.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/tommy-tuberville.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/kwame-kilpatrick.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="categories mx-2 border-top border-bottom pt-2">
+          <div class="categories-news">
+            <h4 class="text-danger font-weight-bolder">SPORTS</h4>
+          </div>
+          <div class="row justify-content-around">
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href="">
+                <img
+                  class="card-img-top"
+                  src="assets/images/utah-jazz-karl-malone-sports.webp"
+                  alt="Card image cap"
+              /></a>
+
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <article class="card col-sm-12 col-md-4 col-lg-4 p-0 px-md-1 mx-0 mb-3 border-0">
+              <a href=""
+                ><img
+                  class="card-img-top"
+                  src="assets/images/michael-jordan-chicago-bulls.webp"
+                  alt="Card image cap"
+              /></a>
+              <div class="news-cat mt-n4">
+                <a href="#" class="border-0 p-1 font-weight-bold">U.S</a>
+              </div>
+              <div class="card-body text-dark px-0">
+                <h5 class="card-title font-weight-bold">
+                  <a href="">
+                    'I Am the First Person on Earth to See All 80 Genera Primates in the Wild'</a
+                  >
+                </h5>
+              </div>
+            </article>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/william-barr.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2 border-bottom">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/tommy-tuberville.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+              <article class="row mb-2 pb-2">
+                <div class="col-3 mx-0 px-0">
+                  <a href="#">
+                    <img
+                      class="w-100 h-100"
+                      src="assets/images/kwame-kilpatrick.webp"
+                      alt="Card image cap"
+                  /></a>
+                </div>
+                <div class="side-news col-9">
+                  <h5 class="card-title font-weight-bold text-dark mx-0 px-0">
+                    <a href="">Native Americans Are More Vulnerable to Coronavirus</a>
+                  </h5>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="Subscriptions row border-bottom pb-3 mb-3">
+          <div class="col-md-12 col-lg-8 col-sm-12 m-sm-0 p-sm-0">
+            <h5 class="text-danger font-weight-bolder">SUBSCRIBE</h5>
+            <div class="subscribe-half-one row justify-content-between p-sm-0 m-sm-0">
+              <div
+                class="subscription-img-div col-md-3 col-lg-3 col-sm-12 d-sm-flex flex-sm-column p-sm-0 m-sm-0"
+              >
+                <img
+                  class="subscription-img-1 p-1 clearfix"
+                  src="assets/images/may-22-2020-cover.jpg"
+                  alt="cover-page"
+                />
+                <img
+                  class="subscription-img-2 p-1 clearfix"
+                  src="assets/images/cover.jpg"
+                  alt="cover-page"
+                />
+              </div>
+
+              <div class="subscribe-half-one card col-md-8 col-lg-8 col-sm-12">
+                <div
+                  class="card-body d-flex flex-column align-items-sm-center align-items-md-start"
+                >
+                  <h4
+                    class="card-title text-dark font-weight-bold d-flex flex-column align-items-sm-center align-items-md-start"
+                  >
+                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                  </h4>
+                  <p class="card-text text-dark">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#" class="btn btn-danger mb-2"
+                    >SUBSCRIBE
+                    <img
+                      src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
+                      class="login-arrow"
+                      alt="login-arrow"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe-half-two col-md-12 col-lg-4 col-sm-12 mt-1">
+            <h5 class="text-danger font-weight-bolder m-2">NEWSLETTER</h5>
+            <div class="row">
+              <div class="newsletter-image col-md-4 col-lg-6 col-sm-0">
+                <img
+                  class="w-100 h-100"
+                  src="assets/images/starting5-homepage.png"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="newsletter-form col-md-8 col-lg-6 col-sm-12">
+                <form class="border-0">
+                  <div class="form-group text-dark d-flex flex-column justify-content-center">
+                    <h5
+                      class="text-dark font-weight-bolder mt-3 d-flex justify-content-md-start justify-content-lg-start justify-content-sm-center"
+                    >
+                      The Starting 5
+                    </h5>
+                    <label
+                      class="mt-3 d-flex justify-content-md-start justify-content-lg-start justify-content-sm-center"
+                      >See why nearly a quarter of a million subscribers begin their day with the
+                      Starting 5.Get your weekly update</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mt-3 w-100 d-flex justify-content-md-start justify-content-lg-start align-self-sm-center align-self-md-start"
+                      id="formGroupExampleInput"
+                      placeholder="E-mail Address "
+                    />
+                    <a href="#" class="btn btn-danger mt-3"
+                      >FREE SIGN-UP
+                      <img
+                        src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
+                        class="login-arrow"
+                        alt="login-arrow"
+                    /></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="">
+          <div class="footer-title row border-bottom mb-2 mx-3">
+            <div class="footer-title-left row align-items-baseline col-lg-6 col-md-6 col-sm-4">
+              <a href="#" class="footer-title-text text-danger font-weight-bold">Newsweek</a>
+              <p class="text-black-50">&nbsp;&nbsp;© 2020 Newsweek</p>
+            </div>
+            <div
+              class="footer-title-right col-lg-6 col-md-6 col-sm-12 row justify-content-lg-end justify-content-md-end justify-content-sm-start align-content-center"
+            >
+              <div class="social-links">
+                <a href="#"><i class="fa fa-facebook-square m-1 text-black-50"></i></a>
+                <a href="#"> <i class="fa fa-twitter m-1 text-black-50"></i></a>
+                <a href="#"><i class="fa fa-instagram m-1 text-black-50"></i></a>
+                <a href="#"> <i class="fa fa-tumblr m-1 text-black-50"></i></a>
+                <a href="#"> <i class="fa fa-linkedin m-1 text-black-50"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links-edition mx-3">
+            <div class="row">
+              <label><strong class="text-black-50 pl-3">Editions:</strong></label>
+              <ul class="menu row px-4">
+                <li class="first leaf">
+                  <a href="https://www.newsweek.com/" class="mr-2 text-black-50"
+                    >U.S. Edition <span class="border-sym">&nbsp;&nbsp;|</span></a
+                  >
+                </li>
+                <li class="leaf">
+                  <a href="https://www.newsweekjapan.jp/" class="m-2 text-black-50"
+                    >日本<span class="border-sym">&nbsp;&nbsp;|</span></a
+                  >
+                </li>
+                <li class="leaf">
+                  <a href="http://newsweekpakistan.com/" class="m-2 text-black-50"
+                    >Pakistan<span class="border-sym">&nbsp;&nbsp;|</span></a
+                  >
+                </li>
+                <li class="leaf">
+                  <a href="https://www.newsweek.pl/" class="m-2 text-black-50"
+                    >Polska<span class="border-sym">&nbsp;&nbsp;|</span></a
+                  >
+                </li>
+                <li class="leaf">
+                  <a href="https://newsweek.ro/" class="m-2 text-black-50"
+                    >România <span class="border-sym">&nbsp;&nbsp;|</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links-menu">
+            <ul class="menu row mx-3 px-0">
+              <li class="first leaf">
+                <a href="https://www.newsweek.com/about-newsweek" class="mr-2 text-black-50"
+                  >About Us<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/corrections" class="mr-2 text-black-50"
+                  >Corrections<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/contact" class="mr-2 text-black-50"
+                  >Contact Us<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/editorial-guidelines" class="mr-2 text-black-50"
+                  >Editorial Guidelines<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/advertise" class="mr-2 text-black-50"
+                  >Advertise<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/copyright" class="mr-2 text-black-50"
+                  >Copyright<span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/terms-service" class="mr-2 text-black-50"
+                  >Terms &amp; Conditions <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/privacy-policy" class="mr-2 text-black-50"
+                  >Privacy Policy <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/cookie-policy" class="mr-2 text-black-50"
+                  >Cookie Policy <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/terms-sale" class="mr-2 text-black-50"
+                  >Terms of Sale <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="leaf">
+                <a href="https://www.newsweek.com/archive" class="mr-2 text-black-50"
+                  >Archive <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li class="last leaf">
+                <a href="https://www.newsweek.com/announcements" class="mr-2 text-black-50"
+                  >Announcements <span class="border-sym">&nbsp;&nbsp;|</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="mr-2 text-black-50">Consent preferences </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
